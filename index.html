@@ -78,6 +78,7 @@
                         <li>deficiência auditiva: 2,3 milhões de pessoas</li>
                     </ul>
                 </div>
+                <br>
 
             </article>
 
@@ -122,9 +123,17 @@
 
         </section>
     </div>
-
-    <a href="" id="acc-button"><img src="img/access_icon.png"></a>
-
+    
+    <input type="checkbox" id="checkbox">
+    <div id="menu">
+        <div class="btn"><img src="img/img_visual.png"></div>
+        <div class="btn"><img src="img/img_auditiva.png"></div>
+        <div class="btn"><img src="img/img_motora.png"></div>
+        <div class="btn"><img src="img/img_cognitiva.png"></div>
+    </div>
+    <label for="checkbox" id="acc-button"><img src="img/access_icon.png"></label>
+    
+    
 </body>
 
 <audio id="audio" src=""></audio>
@@ -175,7 +184,6 @@
                 break;
         }
 
-        //audio.pause();
         audio.play();
 
     }

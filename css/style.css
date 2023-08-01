@@ -6,6 +6,10 @@ body {
     width: 100%;
 }
 
+input {
+    display: none;
+}
+
 section {
     max-width: 1000px;
     margin: 0px auto;
@@ -80,6 +84,20 @@ hr {
     background-color: lightyellow;
 }
 
+.btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    background-color: #c21a19;
+    text-align: center;
+}
+
+.btn img {
+    width: 30px;
+    margin-top: 10px;
+}
+
 #acc-button {
     position: fixed;
     bottom: 20px;
@@ -123,7 +141,22 @@ hr {
 
 #read-all {
     border-radius: 15px;
-    width: 70%;
+    max-width: 450px;
+    width: 100%;
+}
+
+#menu {
+    width: 75px;
+    height: 300px;
+    position: fixed;
+    right: 0;
+    bottom: 80px;
+    text-align: center;
+    visibility: hidden;
+}
+
+#checkbox:checked + #menu {
+    visibility: visible;
 }
 
 #header-top {

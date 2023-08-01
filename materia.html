@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>7 em cada 10 pessoas com deficiência estão fora do mercado de trabalho</title>
+    <meta name="description" content="Quem é você nos cem milhões de uns">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="g1">
+    <header>
+        <div id="header-top">
+            <div class="container">
+                <img id="websites" src="img/websites.png">
+                <img id="login" src="img/login.png">
+            </div>
+        </div>
+        <div id="header-bottom">
+            <div class="container">
+                <img id="menu-icon" src="img/menu-icon.png">
+                <img id="menu-text" src="img/menu-text.png">
+                <img id="logo" src="img/g1_white.png" height="30">
+                <img id="search-mobile" src="img/search-mobile.png">
+                <img id="search" src="img/search.png">
+                <p id="title">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp ECONOMIA</p>
+            </div>
+        </div>
+    </header>
+
+    <div id="container">
+        <section>
+
+            <h1 class="interative" id="titulo" onclick="play(this.id)">7 em cada 10 pessoas com deficiência estão fora do mercado de trabalho; salário médio dessa população é R$ 1 mil menor, diz IBGE</h1>
+
+            <h2 class="interative" id="subtitulo" onclick="play(this.id)">Relatório divulgado nesta quarta-feira (21) analisou dados da Pesquisa Nacional de Saúde, de 2019.</h2>
+            <br>
+
+            <img id="social" src="img/social.png">
+            <h3><strong>Por André Catto, g1</strong><br><span>21/09/2022 10h00 - Atualizado há 10 meses</span></h3>
+
+
+            <hr>
+
+            <article>
+
+
+
+                <p class="interative" id="paragrafo-1" onclick="play(this.id)">As pessoas com deficiência ainda enfrentam grandes barreiras no acesso ao mercado de trabalho no Brasil, conforme aponta relatório divulgado nesta quarta-feira (21) pelo Instituto Brasileiro de Geografia e Estatística (IBGE), com dados referentes a 2019.</p>
+
+                <img class="interative" id="image" onclick="play(this.id)" src="img/g1_1.png">
+
+                <p class="interative" id="paragrafo-2" onclick="play(this.id)"><strong>A taxa de participação dessa população no mercado no ano da pesquisa era de 28,3%</strong> – menor do que a de pessoas sem deficiências, de 66,3%. Isso significa que, a cada dez pessoas com deficiência que buscavam um emprego, sete estavam fora do mercado de trabalho.</p>
+
+                <p class="interative" id="paragrafo-3" onclick="play(this.id)">A diferença também é percebida na questão salarial. Enquanto as pessoas com deficiência recebiam o salário médio de R$ 1.639 mensais, o rendimento médio das pessoas sem deficiência era de R$ 2.619 – ou seja, a renda do primeiro público representa apenas dois terços do segundo.</p>
+
+                <img class="interative" id="banner" onclick="play(this.id)" src="img/banner.png">
+
+                <p class="interative" id="paragrafo-4" onclick="play(this.id)">Os números constam na publicação “Pessoas com deficiência e as desigualdades sociais no Brasil”, do IBGE, que analisou dados da Pesquisa Nacional de Saúde. Para o mercado de trabalho, foram consideradas pessoas de 14 anos ou mais.</p>
+
+                <p class="interative" id="paragrafo-5" onclick="play(this.id)">Segundo relatório, o país tinha, em 2019, <strong>17,2 milhões de pessoas com alguma deficiência</strong>, o que representa 8,4% da população.</p>
+
+                <div class="interative" id="paragrafo-6" onclick="play(this.id)">
+                    <p>Entre elas, são consideradas:</p>
+                    <ul>
+                        <li>deficiência física (membros inferiores): 7,8 milhões de pessoas</li>
+                        <li>deficiência visual: 7 milhões de pessoas</li>
+                        <li>deficiência física (membros superiores): 5,4 milhões de pessoas</li>
+                        <li>mais de uma deficiência: 5,3 milhões de pessoas</li>
+                        <li>deficiência mental: 2,5 milhões de pessoas</li>
+                        <li>deficiência auditiva: 2,3 milhões de pessoas</li>
+                    </ul>
+                </div>
+
+            </article>
+
+        </section>
+    </div>
+
+    <a href="" id="acc-button"><img src="img/access_icon.png"></a>
+
+</body>
+
+<audio id="audio" src=""></audio>
+
+<script>
+    function play(valor) {
+
+        var audio = document.getElementById("audio");
+
+        console.log(valor);
+
+        switch (valor) {
+            case 'titulo':
+                audio.src = "src/t2a/titulo.mp3";
+                break;
+            case 'subtitulo':
+                audio.src = "src/t2a/subtitulo.mp3";
+                break;
+            case 'paragrafo-1':
+                audio.src = "src/t2a/paragrafo-1.mp3";
+                break;
+            case 'paragrafo-2':
+                audio.src = "src/t2a/paragrafo-2.mp3";
+                break;
+            case 'paragrafo-3':
+                audio.src = "src/t2a/paragrafo-3.mp3";
+                break;
+            case 'paragrafo-4':
+                audio.src = "src/t2a/paragrafo-4.mp3";
+                break;
+            case 'paragrafo-5':
+                audio.src = "src/t2a/paragrafo-5.mp3";
+                break;
+            case 'paragrafo-6':
+                audio.src = "src/t2a/paragrafo-6.mp3";
+                break;
+            case 'image':
+                audio.src = "src/t2a/imagem.mp3";
+                break;
+            case 'banner':
+                audio.src = "src/t2a/banner.mp3";
+                break;
+        }
+
+        //audio.pause();
+        audio.play();
+
+    }
+
+</script>
+
+</html>

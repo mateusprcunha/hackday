@@ -1,0 +1,242 @@
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    background: white;
+    color: black;
+    margin: 0px;
+    width: 100%;
+}
+
+section {
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 40px 10px;
+}
+
+article {
+    max-width: 650px;
+    margin: 20px auto;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 56px;
+    font-weight: bold;
+    line-height: 1.2;
+    letter-spacing: -3px;
+    margin: 30px 0px;
+    color: black;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0px;
+    color: gray;
+}
+
+p {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0px;
+    line-height: 2;
+    color: #1a1a1a;
+}
+
+li {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+span {
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+hr {
+    margin-top: 40px;
+    border-top: 1px solid #ccc;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+.interative {
+    user-select: none;
+}
+
+.interative:hover {
+    background-color: lightyellow;
+}
+
+.interative:active {
+    outline: 3px solid yellow;
+    background-color: lightyellow;
+}
+
+#acc-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: #c21a19;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#acc-button img {
+    width: 35px;
+    padding-top: 5px;
+}
+
+#banner {
+    width: 100%;
+}
+
+#image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+#header-top {
+    height: 45px;
+    background-color: #f3f3f3;
+}
+
+#header-bottom {
+    height: 55px;
+    padding-top: 15px;
+    background-color: #c21a19;
+}
+
+#container {
+    padding-top: 100px;
+}
+
+#title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: -50px;
+    color: white;
+}
+
+#logo {
+    margin-top: 3px;
+}
+
+#websites,
+#menu-icon,
+#menu-text,
+#logo,
+    {
+    float: left;
+}
+
+#login,
+#search-mobile,
+#search,
+#social {
+    float: right;
+}
+
+#login,
+#search,
+#menu-text {
+    display: inline;
+}
+
+#search-mobile {
+    display: none;
+}
+
+@media (max-width: 800px) {
+
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    li {
+        font-size: 18px;
+    }
+
+    #container {
+        padding-top: 80px;
+    }
+
+    #search-mobile {
+        display: inline;
+    }
+
+    #login,
+    #search,
+    #menu-text {
+        display: none;
+    }
+
+    #social {
+        float: none;
+    }
+}
+
+@media (max-width: 500px) {
+
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    #container {
+        padding-top: 50px;
+    }
+
+    #websites {
+        display: none;
+    }
+
+    #title {
+        display: none;
+    }
+
+    #header-top {
+        height: 1px;
+        background-color: #c21a19;
+    }
+}
+
+@media (min-width: 801px) {
+
+    #banner {
+        width: 280px;
+        float: right;
+        margin-left: 20px;
+        margin-right: -50px;
+    }
+}
+}

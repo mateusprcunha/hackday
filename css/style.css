@@ -96,6 +96,11 @@ hr {
     padding-top: 5px;
 }
 
+#text {
+    width: 100px;
+    margin-top: 30px;
+}
+
 #banner {
     width: 100%;
 }
@@ -103,6 +108,22 @@ hr {
 #image {
     width: 100%;
     border-radius: 15px;
+}
+
+#podcast {
+    width: 100%;
+}
+
+#transcript {
+    background-color: #f2f2f2;
+    padding: 15px 25px;
+    border-radius: 15px;
+    margin-top: -15px;
+}
+
+#read-all {
+    border-radius: 15px;
+    width: 70%;
 }
 
 #header-top {

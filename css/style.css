@@ -24,6 +24,7 @@ article {
 header {
     position: fixed;
     width: 100%;
+    z-index: 99999;
 }
 
 h1 {
@@ -59,6 +60,12 @@ span {
     font-size: 14px;
     font-weight: normal;
     color: gray;
+}
+
+figcaption {
+    color: lightgray;
+    font-size: 12px;
+    padding: 5px 20px 10px;
 }
 
 hr {
@@ -123,7 +130,24 @@ hr {
     width: 100%;
 }
 
-#image {
+#box {
+    background-color: #f2f2f2;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+#image, #video{
+    border-radius: 15px;
+    background-color: #2f3134;
+    margin: 0;
+}
+
+#image img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+#video video {
     width: 100%;
     border-radius: 15px;
 }
@@ -132,11 +156,20 @@ hr {
     width: 100%;
 }
 
-#transcript {
+#podcast-transcript {
     background-color: #f2f2f2;
     padding: 15px 25px;
     border-radius: 15px;
     margin-top: -15px;
+}
+
+#video-transcript {
+    color: white;
+    padding: 15px 25px;
+}
+
+#video-transcript p {
+    color: white;
 }
 
 #read-all {
